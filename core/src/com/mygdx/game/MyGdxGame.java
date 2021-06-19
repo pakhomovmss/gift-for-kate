@@ -8,11 +8,13 @@ import com.badlogic.gdx.utils.ScreenUtils;
 public class MyGdxGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Background bg;
+	Katya katya;
 	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		bg = new Background();
+		katya = new Katya();
 	}
 
 	@Override
@@ -21,6 +23,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		ScreenUtils.clear(1, 1, 1, 1);
 		batch.begin();
 		bg.render(batch);
+		katya.render(batch);
 		batch.end();
 	}
 
@@ -31,5 +34,6 @@ public class MyGdxGame extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
+		katya.update();
 	}
 }
