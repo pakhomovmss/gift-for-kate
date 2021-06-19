@@ -1,0 +1,5 @@
+com/mygdx/game/Background.java
+ com.mygdx.game.Background
+ com.mygdx.game.Background$BackgroundPicture
+com/mygdx/game/MyGdxGame.java
+ com.mygdx.game.MyGdxGame
