@@ -13,8 +13,8 @@ public class Katya {
     float gravity;
 
     public Katya() {
-        imgRun = new Texture("KatyaRun1.png");
-        pos = new Vector2(200, 0);
+        imgRun = new Texture("KatyaRun1_resized.png");
+        pos = new Vector2(200, 100);
         velocity = 0;
         gravity = -0.5f;
     }
@@ -28,7 +28,7 @@ public class Katya {
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE))
             velocity = 10;
         System.out.print(pos.y);
-        
+
         /*
         if (pos.y ) {
             velocity += gravity;
