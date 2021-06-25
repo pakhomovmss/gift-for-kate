@@ -27,16 +27,18 @@ public class Katya {
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE))
             velocity = 10;
-        System.out.print(pos.y);
 
-        /*
-        if (pos.y ) {
+        if (isUnderGround(pos))
+            pos = new Vector2(200, 100);
+
+        else {
             velocity += gravity;
             pos.y += velocity;
         }
-        */
 
-        velocity += gravity;
-        pos.y += velocity;
+    }
+
+    private boolean isUnderGround(Vector2 position) {
+        return pos.y < 100;
     }
 }
