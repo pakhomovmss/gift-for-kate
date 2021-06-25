@@ -28,8 +28,11 @@ public class Katya {
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE))
             velocity = 10;
 
-        if (isUnderGround(pos))
+        if (isUnderGround(pos)) {
             pos = new Vector2(200, 100);
+            velocity = 0;
+        }
+
 
         else {
             velocity += gravity;
