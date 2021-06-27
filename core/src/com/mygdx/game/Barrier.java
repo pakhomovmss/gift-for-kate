@@ -12,7 +12,7 @@ public class Barrier {
         private Vector2 pos;
 
         public BarrierImage(Vector2 pos) {
-            this.tx = new Texture("cactus300x300.png");
+            this.tx = new Texture("cactus_resized.png");
             this.pos = pos;
         }
 
