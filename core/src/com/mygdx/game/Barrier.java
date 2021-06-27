@@ -23,7 +23,7 @@ public class Barrier {
 
     public Barrier() {
         for (int i = 0; i < 4; i++) {
-            this.barriers[i] = new BarrierImage(new Vector2((i + 1) * 300, 100));
+            this.barriers[i] = new BarrierImage(new Vector2((i + 1) * 500, 100));
         }
 
         this.speed = 4;
@@ -38,6 +38,12 @@ public class Barrier {
     public void update() {
         for(BarrierImage barrier : barriers) {
             barrier.pos.x -= speed;
+        }
+
+        if (barriers[2].pos.x <= 500) {
+            for (int i = 0; i < barriers.length; i++) {
+                barriers[i].pos.x = (i + 1) * 500;
+            }
         }
     }
 }
