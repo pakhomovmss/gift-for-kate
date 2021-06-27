@@ -8,12 +8,14 @@ public class MyGdxGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Background bg;
 	Katya katya;
+	Barrier barrier;
 	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		bg = new Background();
 		katya = new Katya();
+		barrier = new Barrier();
 	}
 
 	@Override
@@ -22,12 +24,14 @@ public class MyGdxGame extends ApplicationAdapter {
 		ScreenUtils.clear(1, 1, 1, 1);
 		batch.begin();
 		bg.render(batch);
+		barrier.render(batch);
 		katya.render(batch);
 		batch.end();
 	}
 
 	public void update() {
 		bg.update();
+		barrier.update();
 		katya.update();
 	}
 	

@@ -1,9 +1,10 @@
 com/mygdx/game/Background.java
  com.mygdx.game.Background
  com.mygdx.game.Background$BackgroundPicture
-com/mygdx/game/Barrier.java
- com.mygdx.game.Barrier
-com/mygdx/game/MyGdxGame.java
- com.mygdx.game.MyGdxGame
 com/mygdx/game/Katya.java
  com.mygdx.game.Katya
+com/mygdx/game/Barrier.java
+ com.mygdx.game.Barrier
+ com.mygdx.game.Barrier$BarrierImage
+com/mygdx/game/MyGdxGame.java
+ com.mygdx.game.MyGdxGame
