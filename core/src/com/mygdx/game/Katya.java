@@ -13,7 +13,7 @@ public class Katya {
     float gravity;
 
     public Katya() {
-        imgRun = new Texture("KatyaRun1_resized.png");
+        imgRun = new Texture("KatyaRun1_resized_copy.png");
         pos = new Vector2(200, 100);
         velocity = 0;
         gravity = -0.5f;
@@ -43,5 +43,10 @@ public class Katya {
 
     private boolean isUnderGround(Vector2 position) {
         return pos.y < 100;
+    }
+
+    public void recreate() {
+        pos = new Vector2(200, 100);
+        velocity = 0;
     }
 }

@@ -16,6 +16,8 @@
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Barrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Barrier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Barrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Barrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Katya.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Katya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
